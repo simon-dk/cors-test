@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server/index.js"
+    "client": "nodemon src/client/app.js",
+    "server": "nodemon src/server/index.js",
+    "start": "npm run client & npm run server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
     "http-server": "^14.1.1",
     "nodemon": "^3.0.1"
   }
