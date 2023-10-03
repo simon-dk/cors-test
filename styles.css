@@ -1,0 +1,60 @@
+h1 {
+  font: bold;
+  font-family: sans-serif;
+}
+
+button {
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #7b9cc0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.largeButton {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+label {
+  font: bold;
+  font-family: sans-serif;
+  margin-right: 1rem;
+}
+
+div {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#inputSelector {
+  width: 500px;
+  padding: 6px 18px;
+  margin: 0.25rem 0.5rem 0rem 0rem;
+  font-size: 14px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input {
+  width: auto;
+  padding: 6px 18px;
+  margin: 0.25rem 0.5rem 0rem 0rem;
+  font-size: 14px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}

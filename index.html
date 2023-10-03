@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Fetch Data</title>
+  </head>
+  <body>
+    <main>
+      <h1>Fetch Data Client Side</h1>
+      <div>
+        <label for="inputSelector">Select or type a url:</label>
+        <input type="text" id="inputSelector" list="options" />
+        <datalist id="options"></datalist>
+        <button id="resetButton">Reset</button>
+      </div>
+
+      <div>
+        <button id="addUserAgentButton">Add User Agent</button>
+        <button id="addHeaderButton">Add Custom Headers</button>
+        <div id="headerContainer"></div>
+      </div>
+
+      <div>
+        <button class="largeButton" id="fetchButton">Fetch Data</button>
+        <button class="largeButton" id="clearDataButton" style="display: none">Clear</button>
+
+        <div id="dataContainer"></div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
