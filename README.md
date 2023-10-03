@@ -19,4 +19,4 @@ You can append headers to the request to see how this affects the response.
 
 While the server and client is running, you can alter the CORS headers in src/server/index.js and see how this affects the responses.
 
-[Fetch](./docs/fetch.png)
+![Fetch Image](docs/fetch.png)
